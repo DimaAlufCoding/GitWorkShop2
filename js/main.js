@@ -9,6 +9,8 @@ function onBallClick() {
 
     ball.style.width = `${newSize}px`
     ball.style.height = `${newSize}px`
+    ball.style.backgroundColor = getRandomColor()
+    console.log(getRandomColor())
 
     ball.textContent = newSize;
 }
